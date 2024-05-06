@@ -6,6 +6,7 @@ fetch(url)
     return response.json();
   })
   .then(function (json) {
+    console.log('test');
     console.log({ json });
   })
   .catch(console.error);
