@@ -10,3 +10,5 @@ fetch(url)
     console.log({ json });
   })
   .catch(console.error);
+
+  console.log('test')
